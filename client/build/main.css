@@ -1,0 +1,5 @@
+@font-face { font-family: Graduate; src: url('/fonts/Graduate-Regular.ttf'); }
+
+* {
+  font-family: Graduate;
+}
