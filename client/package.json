@@ -19,8 +19,11 @@
     "mocha": "^3.4.2",
     "webpack": "^2.2.1"
   },
-
-  "presets": ["react", "es2015", "stage-0"],
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ],
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"

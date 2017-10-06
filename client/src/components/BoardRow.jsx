@@ -14,13 +14,13 @@ class BoardRow extends React.Component {
     var board = this.props.board;
 
     var card = (index) => (
-      console.log(this.players[index].name),
       <PlayerCard
         id ={index}
-        image = {this.players[index].image.bind(this)}
-        name = {this.players[index].name.bind(this)}
-        height = {this.players[index].height.bind(this)}
-        team = {this.players[index].team.bind(this)}/>
+        log = {console.log(index, " + ", this.players[index].name)}
+        image = {this.players[index].image}
+        name = {this.players[index].name}
+        height = {this.players[index].height}
+        team = {this.players[index].team}/>
     )
 
     return(
